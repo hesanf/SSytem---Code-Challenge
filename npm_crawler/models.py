@@ -8,7 +8,7 @@ class LastNews(models.Model):
     id = models.IntegerField(primary_key=True)
     url = models.CharField(max_length=255)
     title = models.CharField(max_length=255)
-    sumamry = models.TextField()
+    sumamry = models.CharField(max_length=255)
     date_published = models.CharField(max_length=100)
 
     class Meta:
