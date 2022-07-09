@@ -9,7 +9,10 @@ some things you should do after cloning listed below :
 3. make migrations using : python manage.py makemigrations
 4. apply migrations to db : python manage.py migrate 
 5. you must create a new superuser for browsing admin panel : django-admin createsuperuser (choose "demo" for both field for default)
-6. then run the project on your localhost : python manage.py runserver (default is http://127.0.0.1:8000)
+
+6. !!!! (NEW) navigate to npw_crawler/apps.py Uncomment Whole code !!!!
+
+7. then run the project on your localhost : python manage.py runserver (default is http://127.0.0.1:8000)
 
 then navigate to localhost:8000 for API
 and localhost:8000/admin/ for admin area
